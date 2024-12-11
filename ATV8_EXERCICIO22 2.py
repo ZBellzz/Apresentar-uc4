@@ -73,7 +73,7 @@ while True:
                     break
             
                 # confirmar caso n queira ver
-                elif confirmacao_de_relatorio_profundo == 'nao':
+                elif confirmacao_de_relatorio_profundo == 'nao' or confirmacao_de_relatorio_profundo == 'não':
                     break
                 
                 # n digitou oq foi informado
@@ -96,7 +96,7 @@ while True:
             if confirmacao_de_id_repetida == 'sim':
                 mais_q_1_problema.append(cod_mouse)
                 
-            elif confirmacao_de_id_repetida =='nao':
+            elif confirmacao_de_id_repetida =='nao' or confirmacao_de_id_repetida == 'não':
                 exit
                 
             else:
